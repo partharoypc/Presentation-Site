@@ -1,0 +1,130 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.4;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+/* All Page Background Set   */
+
+#page-1 {
+    background: url('../img/bg-5.jpg') no-repeat center center/cover;
+}
+
+#page-2 {
+    background: url('../img/bg-2.jpg') no-repeat center center/cover;
+}
+
+#page-3 {
+    background: url('../img/bg-3.jpg') no-repeat center center/cover;
+}
+
+#page-4 {
+    background: url('../img/bg-4.jpg') no-repeat center center/cover;
+}
+
+#page-5 {
+    background: url('../img/bg-1.jpg') no-repeat center center/cover;
+}
+
+#page-6 {
+    background: url('../img/bg-6.jpg') no-repeat center center/cover;
+}
+
+#page-7 {
+    background: url('../img/bg-7.jpg') no-repeat center center/cover;
+}
+
+#page-8 {
+    background: url('../img/bg-8.jpg') no-repeat center center/cover;
+}
+
+#page-9 {
+    background: url('../img/bg-9.jpg') no-repeat center center/cover;
+}
+
+#page-10 {
+    background: url('../img/bg-10.jpg') no-repeat center center/cover;
+}
+
+
+/* Page  Design  */
+
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 4rem;
+}
+
+.page h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin: 1rem;
+}
+
+.page p {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+
+/* Btn Style  */
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #f4f4f4;
+    color: #333;
+    margin-top: 3rem;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in;
+}
+
+.btn:hover,
+.btn-dark {
+    background: #333;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background: #f4f4f4;
+    color: #333;
+}
+
+
+/* Page Animation  */
+
+#page-1 h1 {
+    transform: translateY(-1200px);
+    animation: heading 2s forwards ease-in;
+}
+
+#page-1 p {
+    transform: translateX(-1900px);
+    animation: text 3s forwards ease-in 2s;
+}
+
+
+/* Keyfream */
+
+@keyframes heading {
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes text {
+    to {
+        transform: translateX(0);
+    }
+}
